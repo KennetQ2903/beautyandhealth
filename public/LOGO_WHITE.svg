@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-9.04 2.825 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="path-0" d="M 90.96045295758924 423.16384636791514 L 130.80953466647946 447.07329539324917" style="fill: none;"/>
+    <path id="text-path-0" d="M 242.4230499267578 363.29421043395996 Q 251.76273918151855 331.6557922363281 261.1024284362793 363.29421043395996"/>
+  </defs>
+  <ellipse style="fill-rule: nonzero; paint-order: stroke; fill: rgba(255, 255, 255, 0); stroke-width: 13px; stroke: rgb(255, 255, 255);" cx="218.644" cy="240.242" rx="80.226" ry="78.249"/>
+  <rect x="171.751" y="177.966" width="10.17" height="96.61" style="stroke: rgb(255, 255, 255); fill: rgb(255, 255, 255);"/>
+  <rect x="176.271" y="233.334" width="28.814" height="9.605" style="stroke: rgb(255, 255, 255); fill: rgb(255, 255, 255);"/>
+  <rect x="200.847" y="205.65" width="10.17" height="70.056" style="fill: rgb(255, 255, 255); stroke: rgb(255, 255, 255);"/>
+  <rect x="227.401" y="206.215" width="9.605" height="107.909" style="fill: rgb(255, 255, 255); stroke: rgb(255, 255, 255);"/>
+  <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 15.8696px; line-height: 25.3913px; white-space: pre;" transform="matrix(4.91286, 0, 0, 6.238346, -983.304565, -2532.883545)" x="245.381" y="450.315">B</text>
+</svg>
