@@ -1,0 +1,80 @@
+.scrollItem {
+    flex: 0 0 auto;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.itemWrapper {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemWrapper img {
+    max-height: 90%;
+    max-width: 90%;
+    object-fit: contain;
+    user-select: none;
+}
+
+.itemDescription {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+    white-space: break-spaces;
+    overflow: hidden;
+    user-select: none;
+}
+
+.itemPrice {
+    margin: 5px 0;
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #000;
+    white-space: break-spaces;
+    overflow: hidden;
+    user-select: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .itemDescription {
+        font-size: 2rem;
+    }
+
+    .itemPrice {
+        font-size: 1rem;
+    }
+
+    .scrollItem {
+        height: 475px;
+        width: 450px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .itemDescription {
+        font-size: 2rem;
+    }
+
+    .itemPrice {
+        font-size: 1.5rem;
+    }
+
+    .scrollItem {
+        height: 525px;
+        width: 475px;
+    }
+}
