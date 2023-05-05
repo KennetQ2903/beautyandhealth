@@ -8,7 +8,7 @@ export function ItemCarrousel () {
         <ItemCard
           key={item.title}
           title={item.title}
-          price={20.34}
+          price={item.price}
           src={item.src}
         />
       ))}
