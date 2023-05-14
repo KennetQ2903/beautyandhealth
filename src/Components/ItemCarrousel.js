@@ -1,10 +1,10 @@
 import { ItemCard } from '@/Components/ItemCard'
-import { Catalogo } from '@/Config/Catalogo'
+import { CatalogoList } from '@/Config/Catalogo'
 import styles from '@/css/ItemCarrousel.module.css'
 export function ItemCarrousel () {
   return (
     <div className={styles.container}>
-      {Catalogo.map((item) => (
+      {CatalogoList.map((item) => (
         <ItemCard
           key={item.title}
           title={item.title}
