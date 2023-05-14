@@ -1,30 +1,33 @@
-.scrollItem {
+.item {
     flex: 0 0 auto;
-    height: 350px;
-    width: 300px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    text-align: center;
     border-right: 1px solid #000;
+    border-left: 1px solid #000;
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
-    cursor: pointer;
 }
+
 
 .itemWrapper {
     position: relative;
     height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
 }
 
 .itemWrapper img {
-    height: 200px;
-        width: 200px;
-        object-fit: cover;
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
     user-select: none;
 }
 
@@ -51,27 +54,31 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .item {
+        height: 475px;
+    }
+
     .itemDescription {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .itemPrice {
         font-size: 1rem;
     }
 
-    .scrollItem {
-        height: 475px;
-        width: 450px;
+    .itemWrapper img {
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+        user-select: none;
     }
-.itemWrapper img {
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
-    user-select: none;
-}
 }
 
 @media screen and (min-width: 1024px) {
+    .item {
+        height: 650px;
+    }
+
     .itemDescription {
         font-size: 2rem;
     }
@@ -80,14 +87,10 @@
         font-size: 1.5rem;
     }
 
-    .scrollItem {
-        height: 525px;
-        width: 475px;
+    .itemWrapper img {
+        height: 500px;
+        width: 550px;
+        object-fit: cover;
+        user-select: none;
     }
-.itemWrapper img {
-    height: 325px;
-    width: 325px;
-    object-fit: cover;
-    user-select: none;
-}
 }

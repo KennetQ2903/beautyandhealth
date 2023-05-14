@@ -1,37 +1,44 @@
-export const Catalogo = [
+export const CatalogoList = [
   {
     src: '/products/tensorOjos.png',
-    price: 0.0,
-    title: 'Tensor de contorno de ojos'
+    price: 100.00,
+    title: 'Tensor de contorno de ojos',
+    description: ''
   },
   {
     src: '/products/terapia.jpg',
-    price: 0.0,
-    title: 'Terapia frio/caliente'
+    price: 150.00,
+    title: 'Terapia frio/caliente',
+    description: ''
   },
   {
     src: '/products/frecuencia.jpg',
-    price: 0.0,
-    title: 'Frecuencia galvánica'
+    price: 150.00,
+    title: 'Frecuencia galvánica',
+    description: ''
   },
   {
     src: '/products/electro.png',
-    price: 0.0,
-    title: 'Electroporador'
+    price: 5000.00,
+    title: 'Electroporador',
+    description: ''
   },
   {
     src: '/products/gimnasia.png',
-    price: 0.0,
-    title: 'Gimnasia pasiva'
+    price: 5000.00,
+    title: 'Gimnasia pasiva',
+    description: ''
   },
   {
     src: '/products/cavitacion.png',
-    price: 0.0,
-    title: 'Cavitacion con radiofrecuencia'
+    price: 500.00,
+    title: 'Cavitacion con radiofrecuencia',
+    description: ''
   },
   {
     src: '/products/vaporizador.png',
-    price: 0.0,
-    title: 'Vaporizador de limpieza profunda'
+    price: 600.00,
+    title: 'Vaporizador de limpieza profunda',
+    description: ''
   }
 ]

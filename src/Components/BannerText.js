@@ -14,7 +14,7 @@ export function BannerText () {
             La vida es bella, pero tu piel, manicura y cabello lo son más.
           </h1>
         </div>
-        <Button title='Ver Catalogo' mode='white' />
+        <Button title='Ver Catalogo' mode='white' route='/Catalogo' />
       </div>
     </>
   )

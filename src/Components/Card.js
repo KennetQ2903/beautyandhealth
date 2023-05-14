@@ -11,7 +11,7 @@ export function Card () {
           <p className={`${styles.info} ${poppins.className}`}>Cuida bien de tu cuerpo, es tu lugar perfecto.</p>
           <p className={`${styles.info} ${poppins.className}`}>Trabajamos para resaltar tu belleza.</p>
         </div>
-        <Button title='Empieza a Comprar' mode='black' />
+        <Button title='Empieza a Comprar' mode='black' route='/Catalogo' />
       </div>
     </>
   )
