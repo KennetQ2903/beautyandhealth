@@ -1,10 +1,13 @@
 'use client'
 import styles from '@/css/ItemCard.module.css'
 import localFont from 'next/font/local'
+import { useRouter } from 'next/navigation'
 const poppins = localFont({ src: '../../public/fonts/Poppins-ExtraLight.ttf', display: 'swap' })
-export function ItemCard ({ title = '', price = 0, src = '' }) {
+export function ItemCard ({ title = '', price = 0, src = '', id }) {
+  const router = useRouter()
   const handleItem = () => {
     console.log('Ir a la descripcion')
+    router.push(`/Catalogo/${id}`)
   }
   return (
     <>

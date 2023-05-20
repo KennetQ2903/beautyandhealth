@@ -10,6 +10,7 @@ export function ItemCarrousel () {
           title={item.title}
           price={item.price}
           src={item.src}
+          id={item.id}
         />
       ))}
     </div>
