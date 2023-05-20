@@ -1,0 +1,149 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    margin-top: 120px;
+    /* Espacio entre los elementos */
+}
+
+.imgContainer {
+    border: 1px solid black;
+    height: 320px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.descriptionContainer {
+    border-width: 0px 1px 1px 1px;
+    border-color: black;
+    height: 320px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    width: 90%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+}
+
+.descriptionTitle {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    border-bottom: 1px solid black;
+    justify-content: center;
+    align-items: end;
+}
+
+.title {
+    font-weight: bold;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.price {
+    font-weight: bold;
+    text-align: right;
+    font-size: .9rem;
+}
+
+.descriptionP {
+    margin: 10px 0px;
+    overflow: auto;
+}
+
+.descriptionItem {
+    text-align: left;
+    font-size: 1rem;
+}
+
+.imgContainer img {
+    width: 98%;
+    height: 98%;
+    object-fit: cover;
+    user-select: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        margin-top: 180px;
+    }
+
+    .descriptionContainer {
+        height: 40vh;
+    }
+
+    .imgContainer {
+        height: 40vh;
+    }
+
+    .imgContainer img {
+        width: 70%;
+        height: 90%;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .price {
+        font-size: 1.4rem;
+    }
+
+    /* .description {
+        grid-template-rows: auto auto;
+    } */
+
+    .descriptionItem {
+        font-size: 1rem;
+    }
+}
+
+/* Media Query para dispositivos con un ancho de pantalla de 768px o más */
+@media screen and (min-width: 1024px) {
+    .container {
+        margin-top: 180px;
+        grid-template-columns: 1fr 1fr;
+        /* Dos columnas en modo escritorio */
+        grid-template-rows: 1fr;
+        /* Una fila en modo escritorio */
+    }
+
+    .descriptionContainer {
+        height: 77vh;
+    }
+
+    .imgContainer {
+        height: 77vh;
+    }
+
+    .imgContainer img {
+        width: 70%;
+        height: 70%;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .price {
+        font-size: 2rem;
+    }
+
+    /* .description {
+        grid-template-rows: 150px auto;
+    } */
+
+    .descriptionItem {
+        font-size: 1.4rem;
+    }
+}
