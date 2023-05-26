@@ -74,9 +74,7 @@ export default function Navbar () {
               alignItems: 'center',
               position: 'relative'
             }}
-          >
-            {/* <p className={inter.className}>Disfruta de una belleza inigualable</p> */}
-          </div>
+          />
         </div>
       </nav>
     </>
